@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+
+html {
+  width: 317px;
+  margin: auto;
+  background-color: #23252c;
+}
+
+.App {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+}
+
+main {
+  background-color: #1a1b21;
+  color: #fff;
+  padding: 0;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+header {
+  height: 317px;
+}
+
+footer {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #161619;
+  padding: 20px 35px;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  font-weight: 500;
+  font-size: 0.9rem;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+
+  vertical-align: middle;
+}
+
+button > img,
+button > span {
+  vertical-align: middle;
+  line-height: 16px;
+}
+
+button > img {
+  padding-right: 10px;
+}
+
+.title {
+  text-align: center;
+  margin: 0;
+}
+
+.title-name {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin: 0;
+  padding-top: 15px;
+}
+
+.title-position {
+  font-weight: 400;
+  font-size: 0.75rem;
+  color: #f3bf99;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 8px;
+}
+
+.title-website {
+  font-weight: 400;
+  font-size: 0.6rem;
+  margin: 0;
+  padding-bottom: 16px;
+}
+
+.highlights {
+  padding-bottom: 40px;
+}
+
+.content {
+  font-weight: 400;
+  font-size: 0.6rem;
+  line-height: 1rem;
+  margin: 0;
+}
+
+.content-title {
+  font-weight: 700;
+  font-size: 0.9rem;
+  margin-bottom: 2px;
+}
